@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Of Boxes Order Form</title>
+</head>
+<body>
+    <h1 style="color: coral;">Land Of Boxes Order Form</h1>
+        <form action="">
+        <table>
+            <tr>
+                
+                <td>Name:</td>
+                <td><input type="text" id="inputLetras" name="inputLetras" pattern="[A-Za-z ]+"  autofocus placeholder="Walaa Brody"></td>
+            </tr>
+            <tr>
+                <td> Email:</td>
+                <td><input type="text" required  value="" maxlength="30" autofocus placeholder="w.brody@widget-sales.com"></td>
+
+            </tr>
+            <tr>
+
+                <td>Address</td>
+                <td><br><textarea name="" id="" cols="30" rows="10"  autofocus placeholder="162 Main Road Rondebosch Cape Town"></textarea> </td>
+            </tr>
+            <tr>
+                <td> Postcode:</td>
+                <td><input type="text" pattern="6-8" min="6" max="8"></td>
+                
+            </tr>
+            
+
+
+        </table>
+       
+        <table border="3">
+            <tr>
+                <br><br><br>
+                <th><strong>Product</strong></th> 
+               <th><strong>Part Number</strong></th>
+               <th><strong>Quantity</strong></th>
+               <th><strong>Unit Price</strong></th>
+               <th><strong>Subtotal</strong></th>
+
+
+            </tr>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td><input type="number" name="" id="" min="1" max="3"></td>
+                <td>R5</td>
+                <td> <input type="text" name="" id=""placeholder="R15" pattern="R\d+">  </td>
+
+            </tr>
+            <tr>
+                <td>Standard Box</td>
+                <td>LB200</td>
+                <td><input type="number" name="" id="" min="1" max="3"></td>
+                <td>R10</td>
+                <td><input type="text" name="" id=""placeholder="R40" pattern="R\d+"></td>
+
+
+            </tr>
+            <tr>
+                <td>Premium Box/TD></td>
+                <td>LB300</td>
+                <td><input type="number" name="" id="" min="1" max="3"></td>
+                <td>R15</td>
+                <td><input type="text" name="" id=""placeholder="R15" pattern="R\d+"></td>
+
+
+
+            </tr>
+            <tr>
+            <td>Deluxe Box/TD></td>
+            <td>LB400</td>
+            <td><input type="number" name="" id="" min="1" max="3"></td>
+            <td>R20</td>
+            <td></td>
+
+            </tr>
+            <tr>
+                <td>Super Deluxe Box/TD></td>
+                <td>LB500</td>
+                <td><input type="number" name="" id="" min="1" max="3"></td>
+                <td>R30</td>
+                <td><input type="text" name="" id=""placeholder="R30" pattern="R\d+" ></td>
+
+            </tr>
+            <tr>
+                <td colspan="4" align="right">Total</td>
+                <td><input type="text" name="" id=""placeholder="R100" pattern="R\d+"></td>
+
+            </tr>
+            
+
+
+
+        
+
+
+        </table> <br> <br>
+
+        <table>
+            <tr>
+                <h3>Credit Card Details</h3>
+                  card Type: 
+                <td>
+                    <input type="radio" name=" card Type" > Mastercard 
+
+                </td>
+                <td>Card Number: <input type="number" name="" pattern="[0-9]+"><br></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name=" card Type" checked> Visa</td>
+                <td>Expiry date:  <input type="date" name="" pattern="(0[1-9]|1[0-2])\/9[1-9]" ><br></td>
+
+            </tr>
+
+            <tr>
+                <td> <input type="radio" name=" card Type" checked>  American Express  <br></td>
+
+            </tr>
+            <tr>
+                <td><input type="radio" name=" card Type" checked>  Diners Club  <br></td>
+
+            </tr>
+
+        </table>
+        
+        
+
+        <br> <br>   
+
+        <table>
+            <tr>
+                <td><strong>Delivery Address:</strong></td>
+                <td><textarea name="" id="" cols="30" rows="10" autofocus placeholder="162 Main Road Rondebosch Cape Town"></textarea> <br> <br> <br></td>
+
+            </tr>
+
+
+        </table>
+
+       <input type="submit" value="Send order"> <input type="submit" value="Clear form">
+       
+     
+    </form>
+
+    
+    
+</body>
+</html>
